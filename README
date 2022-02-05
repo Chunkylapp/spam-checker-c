@@ -54,21 +54,6 @@ all.
     After that some simple callculation is done, provided in the documentation
 and we print 1 if the score is > 100 and 0 if not.
 
-    ----------------- Program coded using the Python language -----------------
-
-    In python I am using a files array which holds the filenames, a keywords
-dictionary and a spread dictionary. We read each filename, each keywords and
-populate the spread with 0 values. After that we iterate through each file
-and get the occurences for the keys inside the spread dictionary. We call the
-doWork() function (nice name, I know) to open the output file, iterate through
-each key and calculate the spread.
-    The 2nd task uses a files array and a keywords dictionary. We get the
-average size using a function with the same name, we count the keywords
-for each file, get the lenght in chars and words, see weather it has more
-than half of its chars capitalized, get the value inside the data/spammers
-file and calculate the score. If the score > 55 we print 1, if it's less
-we print 0.
-
     ------------------------ Thoughts and feelings ----------------------------
 
     Overall it was a nice challenge. The coding part was not the hard one,
